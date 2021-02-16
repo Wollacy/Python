@@ -7,4 +7,8 @@ while True:
     
     if num>=0 and num <=20:
         print(f'Você digitou o numero {lista[num]}')
-        break
+        
+        sair=str(input('Quer continuar [S/N]? ')).strip().upper()[0]
+        
+        if sair == "N":
+            break
