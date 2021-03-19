@@ -8,15 +8,16 @@ sair='N'
 tour='A'
 contin = 1
 
-while tour != 'S' and tour != 'N':
+while True:
     tour=str(input('Gostaria de um brve tour pelo nosso sistema? [S/N]')).upper()
     if tour == 'S':
         while contin == 1:
             contin=int(input('Pressione 1 para continuar'))
     elif tour == 'N':
         print('SEGUE O BAILE')
+        break
     else:
-        print('\033[4;33mResposta inválida! Responda S para SIM e N para NÃO\033[m')
+        print('\033[4;33mResposta inválida! Responda "S" para "SIM" e "N" para "NÃO"\033[m')
 
 print('*'*30)
 print('Então vamos lá...')
