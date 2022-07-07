@@ -1,6 +1,6 @@
 ## Formatação de Texto
 
-nome=input('Digite seu m=nome completo: ')
+nome=input('Digite seu nome completo: ')
 print(nome.upper())
 print(nome.lower())
 nome2=nome.strip()
