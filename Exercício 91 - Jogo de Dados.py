@@ -23,10 +23,10 @@ print()
 print('*='*30)
 print('========= RANKING =========')
 print('*='*30)
-print(ranking)
+print()
 
 cont = 0
-for k, v in ranking.items():
+for jogador in ranking:
     cont += 1
-    print(f'{cont}º lugar: {k} com {v}!')
+    print(f'{cont}º lugar: {jogador[0]} com {jogador[1]}!')
     sleep(1)
